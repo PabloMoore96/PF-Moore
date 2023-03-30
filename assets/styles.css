@@ -94,6 +94,10 @@
     }
 
 }
+
+/* Fin Header */
+
+
 hr{
     margin: 0;
     height: 4rem;
@@ -101,7 +105,14 @@ hr{
     width: absolute;
 }
 
-/* Body content */
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* Main content */
+
+    /* Sobre mi */
+
+
 .body-about{
     padding: 0px;
     display: flex;
@@ -113,7 +124,6 @@ hr{
 }
 .about-text{
     display: block;
-    /* width: 40vw; */
     margin: auto;
     justify-content: center;
 }
@@ -232,9 +242,13 @@ hr{
 
 }
 
-footer{
-    text-align: center;
-}
+    /* Fin Sobre Mi */
+
+    /* ------------------------------------------------------------------------------------------ */
+
+    /* CV */
+
+        /* Seccion Lenguajes y Frameworks */
 
 .lang{
     width: 16rem;
@@ -251,9 +265,23 @@ footer{
     margin-bottom: 20px;
 }
 
+        /* Fin Sección Lenguajes y Frameworks */
+
+        /* ------------------------------------------------------------------------------------------ */
+
+
+        /* Sección Aptitudes */
+
 .lista{
     text-align: justify;
 }
+
+        /* Fin Sección Aptitudes */
+
+        /* ------------------------------------------------------------------------------------------ */
+
+        /* Sección Experiencia */
+
 .artlist{
     padding-left: 1200px;
     padding-right: 1200px;
@@ -317,6 +345,12 @@ footer{
     }
     
 }
+
+        /* Fin Sección Experiencia */
+
+        /* ------------------------------------------------------------------------------------------ */
+
+        /* Sección Contacto y CV */
 .cont a{
     text-decoration: none;
     color: rgb(149, 143, 240);
@@ -326,4 +360,23 @@ footer{
 a:hover{
     color: rgb(218, 216, 245);
     transition: 0.5s;
+}
+
+
+        /* Fin Sección Contacto y CV */
+
+        /* ------------------------------------------------------------------------------------------ */
+
+    /* Fin CV */
+    
+    /* ------------------------------------------------------------------------------------------ */
+
+/* Fin Main Content */
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* Footer */
+
+footer{
+    text-align: center;
 }
